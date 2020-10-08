@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="530.0" prefWidth="478.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="camarseguridad.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Pane prefHeight="529.0" prefWidth="470.0" style="-fx-background-color: #E0E0E0;">
+         <children>
+            <ImageView fitHeight="56.0" fitWidth="61.0" layoutX="23.0" layoutY="175.0">
+               <image>
+                  <Image url="@../camaraseguridad/assets/pantitlan.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="250.0" fitWidth="448.0" layoutX="12.0" layoutY="243.0">
+               <image>
+                  <Image url="@../camaraseguridad/assets/ilustracion-parada-metro_1262-16626.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnTest" layoutX="344.0" layoutY="45.0" mnemonicParsing="false" onAction="#onTest" opacity="0.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #00C853; -fx-text-fill: white;" text="Comenzar" />
+            <Pane fx:id="pnTorniquete2" layoutX="392.0" layoutY="218.0" prefHeight="34.0" prefWidth="39.0" style="-fx-background-color: gray;">
+               <children>
+                  <Label fx:id="lblTorniquete2" alignment="CENTER" layoutX="-1.0" prefHeight="35.0" prefWidth="39.0" text="+" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="pnTorniquete1" layoutX="331.0" layoutY="218.0" prefHeight="34.0" prefWidth="39.0" style="-fx-background-color: gray;">
+               <children>
+                  <Label fx:id="lblTorniquete1" alignment="CENTER" layoutX="-1.0" prefHeight="35.0" prefWidth="39.0" text="+" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <ImageView fitHeight="25.0" fitWidth="23.0" layoutX="10.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/person.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="39.0" layoutY="17.0" text="x" />
+            <Label fx:id="lblContadorVisitantes" layoutX="59.0" layoutY="18.0" prefHeight="17.0" prefWidth="78.0" text="0">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <ImageView fx:id="ci0" fitHeight="35.0" fitWidth="46.0" layoutX="331.0" layoutY="181.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c0" fitHeight="35.0" fitWidth="46.0" layoutX="396.0" layoutY="181.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c1" fitHeight="35.0" fitWidth="46.0" layoutX="396.0" layoutY="136.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c2" fitHeight="35.0" fitWidth="46.0" layoutX="385.0" layoutY="104.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c3" fitHeight="35.0" fitWidth="46.0" layoutX="357.0" layoutY="83.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c4" fitHeight="35.0" fitWidth="46.0" layoutX="323.0" layoutY="74.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c5" fitHeight="35.0" fitWidth="46.0" layoutX="286.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c6" fitHeight="35.0" fitWidth="46.0" layoutX="253.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c7" fitHeight="35.0" fitWidth="46.0" layoutX="218.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c8" fitHeight="35.0" fitWidth="46.0" layoutX="183.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c9" fitHeight="35.0" fitWidth="46.0" layoutX="150.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c10" fitHeight="35.0" fitWidth="46.0" layoutX="115.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c11" fitHeight="35.0" fitWidth="46.0" layoutX="84.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c12" fitHeight="35.0" fitWidth="46.0" layoutX="51.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="c13" fitHeight="35.0" fitWidth="46.0" layoutX="16.0" layoutY="72.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci1" fitHeight="35.0" fitWidth="46.0" layoutX="330.0" layoutY="144.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci2" fitHeight="35.0" fitWidth="46.0" layoutX="306.0" layoutY="125.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci3" fitHeight="35.0" fitWidth="46.0" layoutX="271.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci4" fitHeight="35.0" fitWidth="46.0" layoutX="238.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci5" fitHeight="35.0" fitWidth="46.0" layoutX="203.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci6" fitHeight="35.0" fitWidth="46.0" layoutX="168.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci7" fitHeight="35.0" fitWidth="46.0" layoutX="135.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci8" fitHeight="35.0" fitWidth="46.0" layoutX="100.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci9" fitHeight="35.0" fitWidth="46.0" layoutX="69.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci10" fitHeight="35.0" fitWidth="46.0" layoutX="36.0" layoutY="119.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="ci11" fitHeight="35.0" fitWidth="46.0" layoutX="1.0" layoutY="121.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../camaraseguridad/assets/toppng.com-man-walking-vector-personas-caminando-icono-173x401.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fx:id="in40" fitHeight="35.0" fitWidth="46.0" layoutX="35.0" layoutY="384.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in39" fitHeight="35.0" fitWidth="46.0" layoutX="51.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in38" fitHeight="35.0" fitWidth="46.0" layoutX="67.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in37" fitHeight="35.0" fitWidth="46.0" layoutX="83.0" layoutY="386.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in36" fitHeight="35.0" fitWidth="46.0" layoutX="98.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in35" fitHeight="35.0" fitWidth="46.0" layoutX="114.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in34" fitHeight="35.0" fitWidth="46.0" layoutX="130.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in33" fitHeight="35.0" fitWidth="46.0" layoutX="146.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in32" fitHeight="35.0" fitWidth="46.0" layoutX="162.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in31" fitHeight="35.0" fitWidth="46.0" layoutX="178.0" layoutY="386.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in30" fitHeight="35.0" fitWidth="46.0" layoutX="194.0" layoutY="386.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in29" fitHeight="35.0" fitWidth="46.0" layoutX="210.0" layoutY="387.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in28" fitHeight="35.0" fitWidth="46.0" layoutX="225.0" layoutY="386.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in27" fitHeight="35.0" fitWidth="46.0" layoutX="241.0" layoutY="386.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in26" fitHeight="35.0" fitWidth="46.0" layoutX="257.0" layoutY="386.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in25" fitHeight="35.0" fitWidth="46.0" layoutX="273.0" layoutY="386.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in24" fitHeight="35.0" fitWidth="46.0" layoutX="290.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in23" fitHeight="35.0" fitWidth="46.0" layoutX="306.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in22" fitHeight="35.0" fitWidth="46.0" layoutX="322.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in21" fitHeight="35.0" fitWidth="46.0" layoutX="338.0" layoutY="385.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in20" fitHeight="35.0" fitWidth="46.0" layoutX="35.0" layoutY="422.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in19" fitHeight="35.0" fitWidth="46.0" layoutX="51.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in18" fitHeight="35.0" fitWidth="46.0" layoutX="67.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in17" fitHeight="35.0" fitWidth="46.0" layoutX="83.0" layoutY="424.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in16" fitHeight="35.0" fitWidth="46.0" layoutX="98.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in15" fitHeight="35.0" fitWidth="46.0" layoutX="114.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in14" fitHeight="35.0" fitWidth="46.0" layoutX="130.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in13" fitHeight="35.0" fitWidth="46.0" layoutX="146.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in12" fitHeight="35.0" fitWidth="46.0" layoutX="162.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in11" fitHeight="35.0" fitWidth="46.0" layoutX="178.0" layoutY="424.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in10" fitHeight="35.0" fitWidth="46.0" layoutX="194.0" layoutY="424.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in9" fitHeight="35.0" fitWidth="46.0" layoutX="210.0" layoutY="425.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in8" fitHeight="35.0" fitWidth="46.0" layoutX="225.0" layoutY="424.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in7" fitHeight="35.0" fitWidth="46.0" layoutX="241.0" layoutY="424.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in6" fitHeight="35.0" fitWidth="46.0" layoutX="257.0" layoutY="424.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in5" fitHeight="35.0" fitWidth="46.0" layoutX="273.0" layoutY="424.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in4" fitHeight="35.0" fitWidth="46.0" layoutX="290.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in3" fitHeight="35.0" fitWidth="46.0" layoutX="306.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in2" fitHeight="35.0" fitWidth="46.0" layoutX="322.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="in1" fitHeight="35.0" fitWidth="46.0" layoutX="338.0" layoutY="423.0" opacity="0.03" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../camaraseguridad/assets/person.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblContadorVisitantesDer" alignment="CENTER" layoutX="395.0" layoutY="250.0" opacity="0.43" prefHeight="17.0" prefWidth="35.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblContadorVisitantesIzq" alignment="CENTER" layoutX="334.0" layoutY="253.0" opacity="0.43" prefHeight="17.0" prefWidth="35.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
